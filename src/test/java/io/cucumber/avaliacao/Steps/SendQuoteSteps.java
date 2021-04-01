@@ -10,7 +10,7 @@ public class SendQuoteSteps extends Configuracao {
 
   @Dado("preencho o email")
   public void preencho_o_email() {
-      SendQuotePage.campoEmail(browser).sendKeys("jéssika.walker@tester.com");
+      SendQuotePage.campoEmail(browser).sendKeys("usuario@tester.com.br");
   }
     
   @Dado("digito um telefone")
@@ -20,7 +20,7 @@ public class SendQuoteSteps extends Configuracao {
   
   @Dado("escolho um nome de usuario")
   public void escolho_um_nome_de_usuario() {
-      SendQuotePage.campoUser(browser).sendKeys("Usuario Teste");
+      SendQuotePage.campoUser(browser).sendKeys("UsuarioTeste");
   }
   
   @Dado("escolho uma senha")

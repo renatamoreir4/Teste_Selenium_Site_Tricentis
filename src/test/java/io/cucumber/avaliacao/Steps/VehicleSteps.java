@@ -18,8 +18,8 @@ public class VehicleSteps extends Configuracao{
         VehiclePage.dropdownMarca(browser).click();
     }
 
-    @Dado("seleciono um modelo")
-    public void seleciono_um_modelo()  {
+    @Dado("seleciono o modelo")
+    public void seleciono_o_modelo()  {
         VehiclePage.dropdownModelo(browser).click();
     }
 
@@ -60,7 +60,7 @@ public class VehicleSteps extends Configuracao{
 
     @Dado("digito a carga util")
     public void digito_a_carga_util() {
-        VehiclePage.campoCarga(browser).sendKeys("2000");
+        VehiclePage.campoCarga(browser).sendKeys("200");
     }
     
     @Dado("digito o peso total util")

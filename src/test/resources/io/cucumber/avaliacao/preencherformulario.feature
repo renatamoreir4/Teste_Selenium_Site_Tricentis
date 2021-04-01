@@ -49,7 +49,7 @@ Funcionalidade: validando formulario
   
   Cenario: Escolher tipo de Select Price Option
     Quando escolhe uma opcao 
-    Entao clico em Next para receber
+    Entao clico em Next para receber orcamento
 
   Cenario: Preencher os campos Send Quote
     E preencho o email 

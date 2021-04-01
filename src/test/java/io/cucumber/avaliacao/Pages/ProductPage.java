@@ -21,11 +21,11 @@ public class ProductPage extends Configuracao{
     }
 
     public static WebElement campoCorbertura (WebDriver browser) {
-        return browser.findElement(By.xpath("//*[@id='amageinsurance']/option[2]"));
+        return browser.findElement(By.xpath("//*[@id='damageinsurance']/option[4]"));
     } 
 
     public static WebElement campoProdutos (WebDriver browser) {
-        return browser.findElement(By.xpath("//*[@id='EuroProtection']"));
+        return browser.findElement(By.xpath("//*[@id='insurance-form']/div/section[3]/div[5]/p/label[1]/span"));
     }
 
     public static WebElement campoCortesia (WebDriver browser) {

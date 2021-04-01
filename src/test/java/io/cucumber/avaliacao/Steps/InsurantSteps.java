@@ -10,12 +10,12 @@ public class InsurantSteps extends Configuracao {
 
     @Dado("que digito o primeiro nome")
     public void que_digito_o_primeiro_nome() {
-        InsurantPage.campoNome(browser).sendKeys("Jéssika");
+        InsurantPage.campoNome(browser).sendKeys("usuario");
     }
 
     @Dado("digito o segundo nome")
     public void digito_o_segundo_nome() {
-        InsurantPage.campoSobrenome(browser).sendKeys("Walker");
+        InsurantPage.campoSobrenome(browser).sendKeys("teste");
     }
 
     @Dado("insiro a data de nascimento")

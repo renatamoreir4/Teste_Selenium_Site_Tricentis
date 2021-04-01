@@ -28,20 +28,20 @@ public class SendQuotePage extends Configuracao {
         return browser.findElement(By.xpath("//*[@id='confirmpassword']"));
     } 
 
-    public static WebElement campoComentario (WebDriver browser) {
-      return browser.findElement(By.xpath("#confirmpassword"));
-  } 
+      public static WebElement campoComentario (WebDriver browser) {
+        return browser.findElement(By.xpath("//*[@id='Comments']"));
+    }
 
     public static WebElement botaoSend (WebDriver browser) {
         return browser.findElement(By.xpath("//*[@id='sendemail']"));
     }
 
     public static WebElement menssagemSucesso (WebDriver browser) {
-        return browser.findElement(By.xpath("body>div.sweet-alert.showSweetAlert.visible>h2"));
+        return browser.findElement(By.cssSelector("body>div.sweet-alert.showSweetAlert.visible>h2"));
     } 
 
     public static WebElement botaoOk (WebDriver browser) {
-        return browser.findElement(By.xpath("body>div.sweet-alert.showSweetAlert.visible>div.sa-button-container>div>button"));
+        return browser.findElement(By.cssSelector("body>div.sweet-alert.showSweetAlert.visible>div.sa-button-container>div>button"));
     }
 
     

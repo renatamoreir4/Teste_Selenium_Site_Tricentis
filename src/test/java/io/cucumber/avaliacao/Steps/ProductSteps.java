@@ -39,8 +39,8 @@ public class ProductSteps extends Configuracao{
         ProductPage.campoCortesia(browser).click();
     }
     
-    @Entao("clico em next para ver tabela de precos")
-    public void clico_em_next_para_ver_tabela_de_precos()  {
+    @Entao("clico em next para ver a tabela de precos")
+    public void clico_em_next_para_ver_a_tabela_de_precos()  {
         ProductPage.botaoNext(browser).click();
     }    
     
