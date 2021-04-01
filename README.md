@@ -43,7 +43,7 @@ Intalar o jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-do
 - Clonar o projeto
 
   ```
-  git clone https://github.com/jessikagomes/sampleAppTricentis.git
+  git clone https://github.com/renatamoreir4/Teste_Selenium_Site_Tricentis.git
   ```
 
 - Entrar na página do projeto
@@ -167,4 +167,4 @@ test.bat
 ------
 ## Agradecimento
 
-<h1>Agradeço a Gama Academia e a Accenture por fazer essa realização possivél. Agradeço Também ao meu isntrutor Danilo Aparecido, pela sua paciencia e orientação.</h1>
+<h1>Agradeço a Gama Academia e a Accenture por fazer essa realização possivél. Agradeço Também ao meu isntrutor Danilo Aparecido, pela sua paciencia e orientação e a toda a minha equipe que me acompanhou durante esse processo.</h1>
