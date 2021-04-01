@@ -1,9 +1,10 @@
-## Time: Guardiãs da Qualidade
+## Renata Santos Moreira de Deus
 
-Integrantes: <br>
+## Redes: <br>
 <ul>
-      <li> Renata Moreira </li>
-    https://github.com/renatamoreir4
+  <li> https://github.com/renatamoreir4</li>
+  <li>https://www.linkedin.com/in/renata-moreira-ti</li>
+
 </ul>
 
 ## Desafio: Automação de testes utilizando Selenium e Cucumber 
